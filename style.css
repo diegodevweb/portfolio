@@ -808,9 +808,15 @@ footer span a:hover {
   .max-width .title .text {
     font-size: 20px;
   }
+
+  .skills .title::after {
+    background: #fff;
+    content: "E aprendendo...";
+    font-size: 16px;
+  }
 }
 
-@media (max-width: 401px) {
+@media (min-width:501) and  (max-width: 601px) {
   .home .home-content .text-2 {
     font-size: 25px;
   }
@@ -827,7 +833,7 @@ footer span a:hover {
     margin: 5px 5px 0 0;
   }
 
-  .max-width .title .text {
+  .skills .max-width .title {
     font-size: 30px;
   }
 
@@ -842,4 +848,67 @@ footer span a:hover {
     font-weight: 200;
     margin: 10px 0 0 -5px;
   }
+
+  .max-width .title .text {
+    font-size: 20px;
+  }
+
+  .skills .title::before {
+    background: #fff;
+    content: "E aprendendo..";
+    font-size: 12px;
+  }
+
+  .skills .title::after {
+    background: #fff;
+    content: "E aprendendo...";
+    font-size: 12px;
+  }
 }
+
+@media (max-width: 400px) {
+  .home .home-content .text-2 {
+    font-size: 25px;
+  }
+  .home .home-content .text-3 {
+    font-size: 18px;
+  }
+  .perfil img {
+    display: none;
+  }
+
+  .skills .skills-content .card .text {
+    font-size: 10px;
+    font-weight: 200;
+    margin: 5px 5px 0 0;
+  }
+
+  .skills .max-width .title {
+    font-size: 30px;
+  }
+
+  .skills .skills-content .card .text-js {
+    font-size: 10px;
+    font-weight: 200;
+    margin: 10px 0 0 -10px;
+  }
+
+  .skills .skills-content .card .text-node {
+    font-size: 10px;
+    font-weight: 200;
+    margin: 10px 0 0 -5px;
+  }
+
+  .max-width .title .text {
+    font-size: 20px;
+  }
+
+  
+
+  .skills .title::after {
+    background: #fff;
+    content: "E aprendendo...";
+    font-size: 16px;
+  }
+}
+
