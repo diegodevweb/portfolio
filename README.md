@@ -2,6 +2,8 @@
 
 ## Visão Geral
 
+<img src="app/assets/image/screenshot.png" alt="Screenshot do meu currículo">
+
 Meu portfólio é um site pessoal que exibe meus projetos, habilidades e informações relevantes sobre mim. O objetivo principal deste projeto é apresentar meu trabalho e experiência de uma maneira organizada e atraente.
 Recursos e Tecnologias Utilizadas
 
