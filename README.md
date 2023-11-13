@@ -3,7 +3,7 @@
 ## Visão Geral
 
 ### Acesse em
-https://diegodevwebb.tech
+https://portfolio-02-pi.vercel.app
 
 <img src="app/assets/image/screenshot.png" alt="Screenshot do meu currículo">
 <br><br>
