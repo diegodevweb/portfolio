@@ -11,17 +11,19 @@ $(document).ready(function () {
       $(".scroll-up-btn").removeClass("show");
     }
   });
+
   $(".scroll-up-btn").click(function () {
     $("html").animate({ scrollTop: 0 });
   });
 
-  var typed = new Typed(".typing", {
+  let typed = new Typed(".typing", {
     strings: ["Desenvolvedor", "Back-End", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
-  var typed = new Typed(".typing-2", {
+
+  let typed2 = new Typed(".typing-2", {
     strings: ["Desenvolvedor", "Back-End", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 60,
@@ -32,32 +34,46 @@ $(document).ready(function () {
     $(".navbar .menu").toggleClass("active");
     $(".menu-btn i").toggleClass("active");
   });
-  $(".carousel").owlCarousel({
-    margin: 20,
-    loop: true,
-    autoplayTimeOut: 2000,
-    autoplayHoverPauser: true,
-    responsive: {
-      0: {
-        items: 1,
-        nav: false,
-      },
-      600: {
-        items: 2,
-        nav: false,
-      },
-      1000: {
-        items: 3,
-        nav: false,
-      },
-    },
+
+
+  $(document).ready(function() {
+    $(".carousel").owlCarousel({
+      
+        margin: 20,
+        loop: true,
+        autoplay: true, // Ativar rotação automática
+        autoplayTimeout: 2000, // Intervalo de tempo entre os slides (2 segundos)
+        autoplayHoverPause: true, // Pausar a rotação automática quando o mouse está sobre o carrossel
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          600: {
+            items: 2,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: false,
+          },
+        },
+      });
+    });
   });
-});
+
+  
+
 
 function cleanForm() {
-  document.getElementById("my-form").reset();
+  setTimeout(() => {
+    document.getElementById("my-form").reset();
+  },)
 }
 
-window.onbeforeunload = function () {
-  cleanForm();
-};
+
+  
+
+// window.onbeforeunload = function () {
+//   cleanForm();
+// };
