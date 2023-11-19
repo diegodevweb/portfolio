@@ -68,12 +68,6 @@ $(document).ready(function () {
 function cleanForm() {
   setTimeout(() => {
     document.getElementById("my-form").reset();
-  },)
+    window.location.href = 'thanks.html';
+  }, 2000);
 }
-
-
-  
-
-// window.onbeforeunload = function () {
-//   cleanForm();
-// };
