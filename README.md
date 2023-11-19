@@ -3,7 +3,7 @@
 ## Visão Geral
 
 ### Acesse em
-<a href="https://portfolio-02-pi.vercel.app" target="_blank">https://portfolio-02-pi.vercel.app</a>
+<a href="https://portfolio-02-pi.vercel.app" target="_blank">Portfólio</a>
 
 <img src="app/assets/image/screenshot.png" alt="Screenshot do meu currículo">
 <br><br>
