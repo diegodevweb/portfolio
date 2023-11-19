@@ -282,8 +282,8 @@
           <!--column left-->
           <div class="column rigth">
             <div class="text">Mensagem</div>
-            <form id="my-form" action="https://formsubmit.co/diego.devwebb@gmail.com" method="POST">
-            <!-- <form action="https://formsubmit.co/diego.devwebb@gmail.com" method="POST" onsubmit="resetForm()" /> -->
+            <!-- <form id="my-form" action="https://formsubmit.co/diego.devwebb@gmail.com" method="POST"> -->
+            <form id="my-form" action="https://formsubmit.co/diego.devwebb@gmail.com" method="POST" onsubmit="resetForm()" />
               <div class="fields">
                 <div class="field name">
                   <input type="text" name="nome" placeholder="Nome" required />
@@ -301,12 +301,12 @@
                     name="mensagem"
                     cols="30"
                     rows="10"
-                    placeholder="Escrever...."
+                    placeholder="Escreva aqui sua mensagem"
                     required
                   ></textarea>
                 </div>
                 <div class="button">
-                  <button type="submit" onclick="cleanForm()">Enviar</button>
+                  <button type="submit" onclick="resetForm()">Enviar</button>
                 </div>
               </div>
             </form>
